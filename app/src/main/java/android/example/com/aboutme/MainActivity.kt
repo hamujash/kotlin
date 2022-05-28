@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
         doneButton.setOnClickListener {
             addNickname(it)
         }
+
         findViewById<TextView>(R.id.nickname_text).setOnClickListener {
             updateNickname(it)
         }
-
     }
 
     private fun addNickname(view: View) {
